@@ -47,8 +47,12 @@ Welcome to the Library Management System (LMS) project! This system aims to stre
 
 ## Usage
 
-1. Start the application.
+1. Check application.properties and change what ever is necessary.
 
-2. Access the API documentation using the provided Swagger UI URL (e.g., http://localhost:8000/swagger-ui.html) and explore the available endpoints.
+2. Start ActiveMQ on default port (see application.properties)
 
-3. Use the API endpoints to manage books, users, and borrowing/returning operations.
+3. Start the application.  
+
+4. Access the API documentation using the provided Swagger UI URL (e.g., http://localhost:8000/swagger-ui.html) and explore the available endpoints.
+
+5. Use the API endpoints to manage books, users, and borrowing/returning operations.
